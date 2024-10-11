@@ -24,13 +24,17 @@ docker pull <nombre imagen>:<tag>
 ```
 
 Descargar la imagen **hello-world**
-# COMPLETAR
+```
+docker pull hello-world:latest
+```
 
 **¿Qué es nginx**
-# COMPLETAR 
+Es el nombre de la imagen que se usará para el contenedor, aunque también hace referencia al servidor web y proxy inverso.
 
 Descargar la imagen  **nginx** en la versión **alpine**
-# COMPLETAR
+```
+docker pull nginx:alpine
+```
 
 ### Listar imágenes
 
@@ -38,7 +42,7 @@ Descargar la imagen  **nginx** en la versión **alpine**
 docker images
 ```
 
-# COLOCAR UNA CAPTURA DE PANTALLA DEL RESULTADO 
+CAPTURA DE PANTALLA
 
 **Identificadores**
 
