@@ -29,6 +29,7 @@ docker pull hello-world:latest
 ```
 
 **¿Qué es nginx**
+
 Es el nombre de la imagen que se usará para el contenedor, aunque también hace referencia al servidor web y proxy inverso.
 
 Descargar la imagen  **nginx** en la versión **alpine**
@@ -42,7 +43,7 @@ docker pull nginx:alpine
 docker images
 ```
 
-CAPTURA DE PANTALLA
+![Lista de imágenes](img/Lista.png)
 
 **Identificadores**
 
@@ -57,10 +58,13 @@ docker inspect <nombre imagen>:<tag>
 ```
 
 Inspeccionar la imagen hello-world 
-# COMPLETAR
 
-**¿Con qué algoritmo se está generando el ID de la imagen**
-# COMPLETAR
+```
+docker inspect hello-world:latest
+```
+
+**¿Con qué algoritmo se está generando el ID de la imagen?**
+Se genera con el algoritmo SHA-256.
 
 ### Filtrar imágenes
 
@@ -77,7 +81,10 @@ docker rmi <nombre imagen>:<tag>
 ```
 
 Eliminar la imagen hello-world 
-# COMPLETAR
+
+```
+docker rmi hello-world:latest
+```
 
 -f: Es la opción para forzar la eliminación de la imagen incluso si hay contenedores en ejecución que utilizan esa imagen.
 Cuando eliminas una imagen Docker, Docker no elimina automáticamente los contenedores que se han creado a partir de esa imagen. Esto significa que, aunque hayas eliminado la imagen, el contenedor seguirá ejecutándose normalmente.  
