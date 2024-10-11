@@ -27,7 +27,7 @@ Descargar la imagen **hello-world**
 docker pull hello-world:latest
 ```
 
-**¿Qué es nginx**
+**¿Qué es nginx?**
 
 Es el nombre de la imagen que se usará para el contenedor, aunque también hace referencia al servidor web y proxy inverso.
 
@@ -63,6 +63,7 @@ docker inspect hello-world:latest
 ```
 
 **¿Con qué algoritmo se está generando el ID de la imagen?**
+
 Se genera con el algoritmo SHA-256.
 
 ### Filtrar imágenes
