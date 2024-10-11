@@ -96,6 +96,7 @@ Verificar que el contenedor que se eliminó
 ```
 docker ps -a
 ```
+![Contenedor eliminado](img/contenedoresActivos.png)
 
 ### Para eliminar un contenedor que esté ejecutándose
 
@@ -113,6 +114,7 @@ Verificar que el contenedor que se eliminó
 ```
 docker ps -a
 ```
+![Contenedor no encontrado](img/contenedoresActivos2.png)
 
 ### Para inspecionar un contenedor 
 
@@ -121,3 +123,4 @@ Inspeccionar el contenedor **srv-web**
 ```
 docker inspect srv-web
 ```
+![Inspección](img/inspecSrvweb.png)
